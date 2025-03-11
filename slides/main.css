@@ -24,7 +24,7 @@ html, body {
 
 h1, h2, h3 {
   font-weight: 400;
-  letter-spacing: -4px;
+  letter-spacing: -3px;
 }
 
 
@@ -63,9 +63,14 @@ h1, h2, h3 {
 
 blockquote {
   letter-spacing: -2px;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 400;
   font-style: italic;
+  border-left: 8px solid #999;
+  margin-left: 0;
+  padding-left: 0.5em;
+  color: #666;
+  line-height: 1.45;
 }
 
 .cite {
@@ -146,4 +151,8 @@ small {
 .invert {
   color:  #d9d9d9;
   text-shadow: #181818  2px 2px 5px;
+}
+
+.columns {
+  column-count: 2;
 }
